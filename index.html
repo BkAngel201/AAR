@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>AAR Inspection System</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top shadow">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" width="30" height="30" class="d-inline-block align-top AARlogo" alt="">
+        AAR LGS - Inspection System
+      </a>
+    </nav>
+    <div class="container-fluid">
+      <div class="row d-none d-md-block">
+        <nav class="col-md-2 bg-dark sidebar">
+          <div class="sidebar-sticky">
+            <h5 class="sidebar-heading d-flex justify-content-between align-items-center px-3 text-muted mt-2">
+              Airbus
+            </h5>
+            <div class="divider color"></div>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" role="button" id="a320DropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">A320</a>
+                <nav class="nav flex-column dropdown-menu bg-light" aria-labelledby="a320DropDown">
+                  <a class="nav-link dropdown-item" href="#">Main Landing Gear</a>
+                  <a class="nav-link dropdown-item" href="#">Nose Landing Gear</a>
+                </nav>
+              </li>
+              <div class="divider"></div>
+              <h5 class="sidebar-heading d-flex justify-content-between align-items-center px-3 text-muted pb-1
+              mt-2">
+                Boeing
+              </h5>
+              <div class="divider color"></div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">737</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">757</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">A320 - Main Landing Gear</h1>
+      </div>
+      <div class="container-fluid d-flex align-self-stretch">
+        <div class="col-md-7">
+          <div class="col-md-12">
+            <form>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label col-form-label-lg">File</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control form-control-lg">
+                </div>
+              </div><div class="w-100"></div>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label col-form-label-lg">Figure</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control form-control-lg">
+                </div>
+              </div><div class="w-100"></div>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label col-form-label-lg">Item</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control form-control-lg">
+                </div>
+              </div><div class="w-100"></div>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label col-form-label-lg">CH</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control form-control-lg">
+                </div>
+              </div><div class="w-100"></div>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label col-form-label-lg">Part Number</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control form-control-lg">
+                </div>
+              </div><div class="w-100"></div>
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label col-form-label-lg">Part Name</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control form-control-lg">
+                </div>
+              </div><div class="w-100"></div>
+            </form>
+          </div>
+          <div class="col-md-12 d-flex pt-5">
+            <div class="col-md-6">
+              <img src="images/img_test.png" alt="">
+            </div>
+            <div class="col-md-6">
+              <img src="images/img_test.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 d-flex justify-content-center">
+          <img src="images/pdf_test.png" alt="">
+        </div>
+      </div>
+
+    </main>
+  </body>
+</html>
